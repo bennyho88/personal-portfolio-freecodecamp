@@ -101,3 +101,54 @@ header {
     font-size: 1.5rem;
     color: blue;
 }
+
+/* project */
+
+#project-section {
+    background: lightseagreen;
+    
+}
+
+.project-header h2 {
+    display: block;
+    text-align: center;
+    padding-top: 4rem;
+    font-size: 2rem;
+    color: white;
+    text-decoration: underline;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.project-tile {
+    margin: 4rem 0;
+}
+
+.project-tile img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.project-tile a {
+    display: block;
+    text-align: center;
+    background: yellow;
+    padding: 1rem 0;
+}
+
+@media screen and (min-width: 650px) {
+
+    .project-tile {
+        margin: 2rem;
+    }
+}
+
